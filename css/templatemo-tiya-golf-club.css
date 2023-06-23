@@ -541,7 +541,7 @@ strong {
   margin-top: 20px;
   padding: 13px 0 10px 0;
   transition: all 0.3s;
-  pointer-events: none;
+  pointer-Competitions: none;
 }
 
 .navbar .dropdown-menu::before {
@@ -594,7 +594,7 @@ strong {
   .navbar .dropdown:hover .dropdown-menu {
     opacity: 1;
     margin-top: 0;
-    pointer-events: auto;
+    pointer-Competitions: auto;
   }
 }
 
@@ -926,41 +926,41 @@ strong {
 
 
 /*---------------------------------------
-  EVENTS SECTION            
+  Competitions SECTION            
 -----------------------------------------*/
-.events-section.section-bg .container>.row {
+.Competitions-section.section-bg .container>.row {
   margin-right: 5px;
   margin-left: 5px;
 }
 
-.events-section.section-bg .container>.row .row {
+.Competitions-section.section-bg .container>.row .row {
   margin: auto;
 }
 
-.events-listing-section {
+.Competitions-listing-section {
   margin-bottom: 100px;
 }
 
-.events-detail-section .custom-block-info {
+.Competitions-detail-section .custom-block-info {
   padding: 40px 60px;
 }
 
-.events-detail-info {
+.Competitions-detail-info {
   background-color: var(--section-bg-color);
   border-radius: var(--border-radius-medium);
   padding: 50px 25px;
 }
 
-.events-title {
+.Competitions-title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-weight-medium);
 }
 
 
 /*---------------------------------------
-  MEMBERSHIP SECTION            
+  FAQs SECTION            
 -----------------------------------------*/
-.membership-section .container {
+.FAQs-section .container {
   position: relative;
   z-index: 2;
 }
@@ -1003,13 +1003,13 @@ strong {
   color: var(--custom-btn-bg-hover-color);
 }
 
-.membership-form {
+.FAQs-form {
   background-color: var(--secondary-color);
   border-radius: var(--border-radius-medium);
   padding: 35px;
 }
 
-.membership-form .form-floating>textarea {
+.FAQs-form .form-floating>textarea {
   border-radius: var(--border-radius-medium);
   height: 100px;
 }
@@ -1081,7 +1081,7 @@ strong {
   bottom: 0;
   right: 0;
   left: 0;
-  pointer-events: none;
+  pointer-Competitions: none;
 }
 
 .site-footer-title {
@@ -1227,7 +1227,7 @@ strong {
     position: relative;
     left: 10px;
     opacity: 1;
-    pointer-events: auto;
+    pointer-Competitions: auto;
     max-width: 155px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -1249,15 +1249,15 @@ strong {
     margin-bottom: 82px;
   }
 
-  .events-listing-section {
+  .Competitions-listing-section {
     margin-bottom: 50px;
   }
 
-  .events-detail-section .custom-block-info {
+  .Competitions-detail-section .custom-block-info {
     padding: 40px;
   }
 
-  .events-detail-info {
+  .Competitions-detail-info {
     padding: 35px 25px;
   }
 
@@ -1265,7 +1265,7 @@ strong {
     width: 60%;
   }
 
-  .events-detail-section .contact-info-item {
+  .Competitions-detail-section .contact-info-item {
     width: 70%;
   }
 
