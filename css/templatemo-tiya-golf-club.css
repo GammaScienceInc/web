@@ -681,6 +681,19 @@ strong {
   margin-bottom: -90px;
 }
 
+.hero-section-about {
+  background-image: url('../images/anna-rosar-ZxFyVBHMK-c-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 100vh;
+  min-height: 670px;
+  margin-bottom: -90px;
+}
+
 .hero-50 {
   height: auto;
   min-height: 540px;
