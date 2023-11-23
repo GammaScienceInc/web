@@ -14,7 +14,8 @@ https://templatemo.com/tm-587-tiya-golf-club
   --white-color: #ffffff;
   --primary-color: #81B29A;
   --secondary-color: #3D405B;
-  --section-bg-color: #F4F1DE;
+  --section-bg-color: #fafafa;
+  --footer-color: #262838;
   --custom-btn-bg-color: #f2cc8f;
   --custom-btn-bg-hover-color: #E07A5F;
   --dark-color: #000000;
@@ -142,6 +143,11 @@ strong {
   padding-bottom: 100px;
 }
 
+.container-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .section-overlay {
   content: "";
   background: rgba(0, 0, 0, 0) linear-gradient(rgba(39, 48, 83, 0.01) 0%, rgb(39, 48, 83) 100%) repeat scroll 0% 0%;
@@ -152,9 +158,9 @@ strong {
   left: 0;
 }
 
-::selection {
-  background-color: var(--primary-color);
-  color: var(--white-color);
+.description {
+    color: var(--white-color);
+    
 }
 
 
@@ -468,7 +474,7 @@ strong {
 }
 
 .navbar {
-  background: transparent;
+  background: var(--secondary-color);
   z-index: 99;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -676,9 +682,8 @@ strong {
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 100vh;
+  height: 60vh;
   min-height: 670px;
-  margin-bottom: -90px;
 }
 
 .hero-section-about {
@@ -691,13 +696,11 @@ strong {
   padding-bottom: 100px;
   height: 100vh;
   min-height: 670px;
-  margin-bottom: -90px;
 }
 
 .hero-50 {
   height: auto;
   min-height: 540px;
-  margin-bottom: -100px;
 }
 
 .hero-50 .container+svg {
@@ -733,7 +736,7 @@ strong {
 /*---------------------------------------
   BACKGROUND IMAGE SECTION        
 -----------------------------------------*/
-.section-bg-image {
+.newsletter-bg-image {
   background-image: url('../images/nrain.png');
   /*make image smaller*/
   background-size: 50%;
@@ -789,7 +792,6 @@ strong {
   ABOUT SECTOIN              
 -----------------------------------------*/
 .about-section {
-  padding-bottom: 70px;
 }
 
 .member-block-image-wrap {
@@ -908,6 +910,19 @@ strong {
   padding-top: 20px;
 }
 
+.custom-block-image-resize {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    max-width: 20vw;
+}
+
+.sponsors-image-container {
+    height: 200px;
+    width: auto;
+    padding: 0px;
+}
+
 .custom-block-span {
   color: var(--secondary-color);
   font-weight: var(--font-weight-bold);
@@ -938,13 +953,11 @@ strong {
 }
 
 
+
+
 /*---------------------------------------
   Competitions SECTION            
 -----------------------------------------*/
-.Competitions-section.section-bg .container>.row {
-  margin-right: 5px;
-  margin-left: 5px;
-}
 
 .Competitions-section.section-bg .container>.row .row {
   margin: auto;
@@ -968,6 +981,15 @@ strong {
   font-size: var(--h3-font-size);
   font-weight: var(--font-weight-medium);
 }
+
+/*---------------------------------------
+  Join SECTION            
+-----------------------------------------*/
+.Join-section.section-bg .container>.row {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 
 
 /*---------------------------------------
@@ -1082,6 +1104,7 @@ strong {
 .site-footer {
   position: relative;
   padding-bottom: 200px;
+  background-color: var(--secondary-color);
 }
 
 .site-footer .container {
@@ -1225,11 +1248,6 @@ strong {
 
   h6 {
     font-size: 16px;
-  }
-
-  .section-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
 
   .navbar {

@@ -1,0 +1,59 @@
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+    Logo
+*/
+.logo {
+    display: flex;
+    height: 50px;
+    text-decoration: none;
+}
+
+.logo-text {
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin-left: 10px;    
+    
+}
+
+.logo-text small {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    
+}
+
+/*
+    Navigation
+*/
+
+.navBar {
+    display: flex;
+    background-color: rgb(61 64 91);
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-basis: 50px;
+}
+
+.navItems {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-direction: row;
+    
+}
+
+.navItemInactive {
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+}
