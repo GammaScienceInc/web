@@ -798,6 +798,7 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
+  margin-bottom: 50%;
 }
 
 .member-block-image-wrap:hover .member-block-image {
