@@ -1212,13 +1212,13 @@ strong {
   background: var(--secondary-color);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
-  font-size: var(--btn-font-size);
+  font-size: 2em;
   display: block;
   margin-right: 5px;
   text-align: center;
-  width: 35px;
-  height: 35px;
-  line-height: 36px;
+  width: 1.75em;
+  height: 1.75em;
+  line-height: 1.75em;
   transition: background 0.2s, color 0.2s;
 }
 
