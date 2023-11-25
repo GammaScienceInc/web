@@ -865,6 +865,7 @@ strong {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
+  width: 90%;
 }
 
 .custom-block-image-wrap:hover .custom-block-image {
